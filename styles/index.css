@@ -2,3 +2,71 @@
    max-width: 55%;
    height: auto;
 }
+
+#button{
+    max-width: 16%;
+    height: auto;
+    
+}
+
+.button_text{
+    position: absolute;
+    top: 152.5%;
+    left: 47.6%;
+    color: rgb(255, 255, 255);
+
+}
+
+
+#grid1-1-1-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    position: relative;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+#browser1{
+    position: absolute;
+    width: 20%;
+    left: 0%;
+    top: 2%;
+}
+
+#browser2{
+    position: absolute;
+    width: 20%;
+    left: 22%;
+    top: 2%;
+}
+
+#browser3{
+    position: absolute;
+    width: 20%;
+    left: 42%;
+    top: 2%;
+}
+
+#browser4{
+    position: absolute;
+    width: 20%;
+    left: 62%;
+    top: 2%;
+}
+#browser5{
+    position: absolute;
+    width: 20%;
+    left: 82%;
+    top: 2%;
+}
+
+
+/* #grid1-1-1-1 > :first-child{
+    background-image: url(../img/browser_illu.svg);
+    max-width: 100%;
+    padding-top: 0;
+} */
+
+
+
