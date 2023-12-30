@@ -1,0 +1,21 @@
+body {
+   margin-left: 4%;
+   margin-right: 4%;
+
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
