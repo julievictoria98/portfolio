@@ -24,41 +24,41 @@
     position: relative;
     justify-items: center;
     align-items: center;
-    margin-bottom: 90px;
+    margin-bottom: 90px
 }
 
 #browser1{
     position: absolute;
     width: 20%;
     left: 0%;
-    top: 2%;
+    top: 3%;
 }
 
 #browser2{
     position: absolute;
     width: 20%;
-    left: 22%;
-    top: 2%;
+    left: 20%;
+    top: 3%;
 }
 
 #browser3{
     position: absolute;
     width: 20%;
-    left: 42%;
-    top: 2%;
+    left: 40%;
+    top: 3%;
 }
 
 #browser4{
     position: absolute;
     width: 20%;
-    left: 62%;
-    top: 2%;
+    left: 60%;
+    top: 3%;
 }
 #browser5{
     position: absolute;
     width: 20%;
-    left: 82%;
-    top: 2%;
+    left: 80%;
+    top: 3%;
 }
 
 
@@ -70,3 +70,4 @@
 
 
 
+ 
