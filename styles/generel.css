@@ -30,10 +30,12 @@ ul {
 /* design af text*/
 h1{
     color: #5835B9;
+    font-size: 3.4vw;
+
 }
 h2 {
     color: #E76605;
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: "exothin" ;
     font-weight: 1000;
 }
@@ -52,27 +54,29 @@ p{
 
 
 /* Grids */
-.grid2-1 {
+.grid1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     margin-top: 55px;
-    margin-left: 7%;
-    margin-right: 7%;
-    margin-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 82px;
+    text-align: center;
 }
 
-.grid2-1 > :first-child {
+.grid1-1 > :first-child {
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 30px;
+    padding-left: 25px;
+    padding-top: 50px;
     padding-bottom: 0;
     border-bottom: 3.4px solid #5835B9;
     border-left: 3.4px solid #5835B9;
     border-radius: 0 0 0 30px; 
 }
 
-.grid2-1 > :nth-child(2) {
+.grid1-1 > :nth-child(2) {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 30px;
@@ -97,7 +101,6 @@ p{
 h1{
     font-family: "courier_primeregular";
         font-weight: 500;
-        font-size: xx-large;
 }
 
 
