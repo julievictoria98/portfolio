@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_6" data-name="Layer 6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 648.92 569.19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #efeeed;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #181818;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        fill: #7ac6c6;
+        stroke-width: 6px;
+      }
+
+      .cls-3 {
+        fill: #e46525;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="75.67" y="279.41" width="383.74" height="253.61" rx="59.62" ry="59.62"/>
+  <polygon class="cls-2" points="488.29 315.35 488.29 480.33 603.82 528.73 603.82 267.71 488.29 315.35"/>
+  <ellipse class="cls-3" cx="347.58" cy="179.67" rx="89.62" ry="78.26"/>
+  <ellipse class="cls-1" cx="346.43" cy="179.01" rx="63.26" ry="55.75"/>
+  <ellipse class="cls-3" cx="175.99" cy="204.8" rx="59.88" ry="55.27"/>
+  <ellipse class="cls-1" cx="176.75" cy="202.5" rx="40.74" ry="37.54"/>
+</svg>

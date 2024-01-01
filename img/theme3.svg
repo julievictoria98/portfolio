@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_15" data-name="Layer 15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 644.33 569.18">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #29292b;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-4, .cls-5, .cls-6 {
+        fill: #7ac6c6;
+      }
+
+      .cls-1, .cls-5, .cls-6, .cls-7 {
+        stroke-width: 5px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: 4px;
+      }
+
+      .cls-2, .cls-5 {
+        stroke: #1e1d1d;
+      }
+
+      .cls-2, .cls-7 {
+        fill: #e46525;
+      }
+
+      .cls-3 {
+        fill: #db7d2f;
+        stroke: #121111;
+      }
+
+      .cls-4 {
+        stroke: #282726;
+      }
+
+      .cls-6 {
+        stroke: #303135;
+      }
+
+      .cls-7 {
+        stroke: #2b2a2a;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="139.71 425.51 139.71 518.82 441.6 524.31 441.6 431.92 139.71 425.51"/>
+  <polygon class="cls-5" points="441.6 431.92 518.34 328.54 518.34 422.77 441.6 524.31 441.6 431.92"/>
+  <ellipse class="cls-3" cx="400.84" cy="392.57" rx="13.7" ry="21.41" transform="translate(-23.44 759.69) rotate(-85.27)"/>
+  <path class="cls-4" d="m517.53,328.54s1.92-4.58,0-7.32l-301.89-3.66-75.93,107.95,301.89,6.4"/>
+  <path class="cls-7" d="m278.25,199.04s26.33,86.62,41.61,160.51h21.23s-37.02-152.02-45.69-163.91c-8.67-11.89-17.16,3.4-17.16,3.4Z"/>
+  <ellipse class="cls-6" cx="274.49" cy="151.2" rx="69.07" ry="65.14" transform="translate(-25.03 59.03) rotate(-11.74)"/>
+  <ellipse class="cls-2" cx="403.26" cy="383.66" rx="24.46" ry="8.92"/>
+</svg>

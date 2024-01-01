@@ -3,12 +3,13 @@ body {
    margin-right: 4%;
    background-color: #dad7d3;
 }
+
+/* Global Menu */
 nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 0;
 }
 
 li a {
@@ -16,9 +17,16 @@ li a {
     color: #5835B9;
 }
 
+li a:hover{
+        color: #E76605;
+
+
+}
+
 ul {
     list-style: none;
 }
+
 
 
 .main_section{
@@ -85,18 +93,6 @@ p{
 }
 
 
-/* Fonts */
-
-
-@font-face {
-    font-family: 'exothin_italic';
-    src: url('exo-italic-variablefont_wght-webfont.woff2') format('woff2'),
-         url('exo-italic-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 h1{
     font-family: "permanent_markerregular";
         font-weight: 100;
@@ -112,7 +108,6 @@ h3{
 nav {
     font-family: "exothin";
     font-weight: 1000;
-
 }
 
 /* Fonts */
@@ -122,7 +117,7 @@ nav {
     src: url('../fonts/exo-variablefont_wght-webfont.woff') format('woff2'),
          url('exo-variablefont_wght-webfont.woff') format('woff');
     font-weight: 0 1000;
-        font-style: bold;
+        font-style:normal;
 
     }
 
@@ -139,6 +134,15 @@ nav {
     font-family: 'permanent_markerregular';
     src: url('../fonts/permanentmarker-regular-webfont.woff2') format('woff2'),
          url('permanentmarker-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'exothin_italic';
+    src: url('exo-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('exo-italic-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
