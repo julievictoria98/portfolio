@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 642.12 573.25">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 644.12 569.25">
   <defs>
     <style>
       .cls-1 {
@@ -29,14 +29,14 @@
     </style>
   </defs>
   <g id="Layer_17" data-name="Layer 17">
-    <rect class="cls-1" x="68.79" y="39.75" width="411.21" height="350.83" rx="46.24" ry="46.24"/>
-    <rect class="cls-1" x="230.83" y="390.57" width="87.13" height="54.27" rx="12" ry="12"/>
-    <rect class="cls-4" x="90.96" y="66.5" width="373.76" height="260.64" rx="29.04" ry="29.04"/>
-    <circle class="cls-2" cx="274.39" cy="353.87" r="14.52"/>
+    <rect class="cls-1" x="69.79" y="37.75" width="411.21" height="350.83" rx="46.24" ry="46.24"/>
+    <rect class="cls-1" x="231.83" y="388.57" width="87.13" height="54.27" rx="12" ry="12"/>
+    <rect class="cls-4" x="91.96" y="64.5" width="373.76" height="260.64" rx="29.04" ry="29.04"/>
+    <circle class="cls-2" cx="275.39" cy="351.87" r="14.52"/>
   </g>
   <g id="Layer_18" data-name="Layer 18">
-    <rect class="cls-1" x="402.8" y="191.08" width="186.5" height="281.27" rx="19.11" ry="19.11"/>
-    <rect class="cls-3" x="421.15" y="207.13" width="151.34" height="223.18" rx="12" ry="12"/>
-    <circle class="cls-2" cx="496.82" cy="450.38" r="10.89"/>
+    <rect class="cls-1" x="403.8" y="189.08" width="186.5" height="281.27" rx="19.11" ry="19.11"/>
+    <rect class="cls-3" x="422.15" y="205.13" width="151.34" height="223.18" rx="12" ry="12"/>
+    <circle class="cls-2" cx="497.82" cy="448.38" r="10.89"/>
   </g>
 </svg>

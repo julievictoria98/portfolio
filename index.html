@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.svg">
     <link rel="stylesheet" href="styles/generel.css">
-        <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/index.css">
 
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav class="navbar">
+             <div id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul id="nav_menu">
                 <li>Forside</li>
                 <li><a href="tema2.html">Team 2</a></li>
                 <li><a href="tema3.html">Tema 3</a></li>
@@ -31,35 +37,36 @@
                 </div>
             </section>
             <h3>Dyk ned i mine værker</h3>
-            <section id="grid1-1-1-1-1">
+            <section id="grid1-1-1-1">
                 <div>
                     <img id="browser1" src="img/browser.svg" alt="">
                     <p>Tema 2</p>
-                    <p>Grundlæggende Web</p>
+                    <p>Grundlæggende<br>Web</p>
                 </div>
                 <div>
                 <img id="browser2" src="img/browser.svg" alt="">
                     <p>Tema 3</p>
-                    <p>Grundlæggende UX/UI</p>
+                    <p>Grundlæggende <br> UX/UI</p>
                 </div>
                 <div>
                     <img id="browser3" src="img/browser.svg" alt="">
                     <p>Tema 4</p>
-                    <p>Grundlæggende Animation</p>
+                    <p>Grundlæggende<br>Animation</p>
                 </div>
                 <div>
                     <img id="browser4" src="img/browser.svg" alt="">
                     <p>Tema 5</p>
-                    <p>Grundlæggende Indhold</p>
+                    <p>Grundlæggende<br>Indhold</p>
                 </div>
             </section>
             <h3><strong>Vil du vide lidt om mig?</strong></h3>
-            
-            <div id="aboutme_btn" class="img_btn"></div>
+            <div id="aboutme_btn" class="img_btn">hej</div>
         </section>
     </main>
     <footer></footer>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/burgermenu.js"></script>
+
 </body>
 </html>

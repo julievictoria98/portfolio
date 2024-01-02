@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1901.4 1401.52">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1786.92 1335.55">
   <defs>
     <style>
       .cls-1 {
@@ -18,9 +18,9 @@
       }
     </style>
   </defs>
-  <ellipse class="cls-2" cx="400.06" cy="236.23" rx="31.18" ry="34.55"/>
-  <ellipse class="cls-2" cx="278.72" cy="236.23" rx="31.18" ry="34.55"/>
-  <rect class="cls-1" x="174.49" y="104.07" width="1571.74" height="1158.77" rx="116.19" ry="116.19"/>
-  <line class="cls-1" x1="173.23" y1="411.82" x2="1747.47" y2="411.82"/>
-  <ellipse class="cls-2" cx="516.14" cy="236.23" rx="31.18" ry="34.55"/>
+  <ellipse class="cls-2" cx="302.64" cy="200.85" rx="33.5" ry="36.66"/>
+  <ellipse class="cls-2" cx="172.28" cy="200.85" rx="33.5" ry="36.66"/>
+  <rect class="cls-1" x="60.29" y="60.64" width="1688.59" height="1229.35" rx="122.43" ry="122.43"/>
+  <line class="cls-1" x1="58.95" y1="387.14" x2="1750.23" y2="387.14"/>
+  <ellipse class="cls-2" cx="427.35" cy="200.85" rx="33.5" ry="36.66"/>
 </svg>

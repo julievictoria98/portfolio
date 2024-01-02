@@ -1,15 +1,47 @@
 body {
-   margin-left: 4%;
-   margin-right: 4%;
    background-color: #dad7d3;
 }
 
+main {
+  display: grid;
+  grid-template-columns: 1.5fr 8fr 1.5fr;
+  padding: 0;
+  margin: 0;
+
+}
+
+.main_section{
+    grid-column: 2;
+    text-align: center;
+    margin-top: 10px;
+    justify-items: center;
+    align-content: center;
+
+}
+
+#portfolio{
+   max-width: 55%;
+   height: auto;
+}
+
+
 /* Global Menu */
-nav ul {
+
+header{
+    background-color: #dad7d3;
+}
+
+
+
+#nav_menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    gap: 4px;
+    margin-right: 25px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 li a {
@@ -26,12 +58,20 @@ ul {
     list-style: none;
 }
 
-
-
-.main_section{
-    text-align: center;
-    margin-top: 60px;
+#hamburger {
+    position: fixed;
+    display: none;
+    cursor: pointer;
 }
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-top: 5px;
+    background-color: #5835B9;
+}
+
 
 /* design af text*/
 h1{
@@ -58,25 +98,12 @@ p{
     font-weight: 1000;
 }
 
-.img_btn {
-    background-image: url("../img/orange_button.svg");
-    background-size: cover;
-    width: 15.3vw;
-    height: 6.5vw;
-}
-.img_btn:hover {
-    cursor:pointer;
-    background-image: url("../img/hoover_button.svg");
-}
-
 /* Grids */
 .grid1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     margin-top: 55px;
-    margin-left: 10%;
-    margin-right: 10%;
     margin-bottom: 82px;
     text-align: center;
 }
@@ -156,3 +183,63 @@ nav {
     font-style: normal;
 
 }
+
+/* media - responsivt design */
+
+@media (max-width: 650px) {
+    #nav_menu {
+        position: fixed;
+        left: -200%;
+        top: 70px;
+        flex-direction: column;
+        background-color: #dad7d3;
+        border: 2px solid #5835B9;
+        text-align: center;
+        transition: 0.3s;
+        width: 100%;
+        padding: 0;
+    }
+     #hamburger {
+        display: block;
+        cursor: pointer;
+        z-index: 2;
+    }
+    .menu_item {
+        margin: 15px 0;
+    }
+    #nav_menu.active {
+        left: 0;
+        top: 0;
+    }
+   
+}
+
+@media (max-width: 900px){
+    main {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+    
+}
+
+.grid1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-top: 55px;
+    margin-bottom: 82px;
+    text-align: center;
+}
+
+} 
+
+
+    
+
+    
+   
+
+
+
+
+
+

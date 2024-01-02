@@ -1,26 +1,8 @@
-#portfolio{
-   max-width: 55%;
-   height: auto;
-}
-
-#button{
-    max-width: 16%;
-    height: auto;
-    
-}
-
-.button_text{
-    position: absolute;
-    top: 152.5%;
-    left: 47.6%;
-    color: rgb(255, 255, 255);
-
-}
 
 
-#grid1-1-1-1-1{
+#grid1-1-1-1{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     position: relative;
     justify-items: center;
     align-items: center;
@@ -30,28 +12,28 @@
 #browser1{
     position: absolute;
     width: 20%;
-    left: 0%;
+    left: 2.4%;
     top: 3%;
 }
 
 #browser2{
     position: absolute;
     width: 20%;
-    left: 20%;
+    left: 27.1%;
     top: 3%;
 }
 
 #browser3{
     position: absolute;
     width: 20%;
-    left: 40%;
+    left: 52%;
     top: 3%;
 }
 
 #browser4{
     position: absolute;
     width: 20%;
-    left: 60%;
+    left: 77%;
     top: 3%;
 }
 #browser5{
@@ -61,12 +43,22 @@
     top: 3%;
 }
 
+.img_btn {
+    background-image: url("../img/orange_button.svg");
+    background-size: cover;
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    margin-bottom: 60px;
 
-/* #grid1-1-1-1 > :first-child{
-    background-image: url(../img/browser_illu.svg);
-    max-width: 100%;
-    padding-top: 0;
-} */
+}
+.img_btn:hover {
+    cursor:pointer;
+    background-image: url("../img/hoover_button.svg");
+    text-align: center;
+
+}
+
 
 
 

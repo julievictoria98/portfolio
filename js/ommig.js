@@ -11,5 +11,5 @@ function setEventListeners() {
 }
 
 function navigateToProjects() {
-    window.location = "index.html?scrollTo=grid1-1-1-1-1";
+    window.location = "index.html?scrollTo=grid1-1-1-1";
 }

@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.svg">
     <link rel="stylesheet" href="styles/generel.css">
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Forside</a></li>
-                <li><a href="tema2.html">Team 2</a></li>
-                <li><a href="tema3.html">Tema 3</a></li>
-                <li><a href="tema4.html">Team 4</a></li>
-                <li><a href="tema5.html">Tema 5</a></li>
-                <li><a href="ommig.html">Om mig</a></li>
+        <nav class="navbar">
+             <div id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul id="nav_menu">
+                <li><a class="menu_item" href="index.html">Forside</a></li>
+                <li><a class="menu_item" href="tema2.html">Team 2</a></li>
+                <li><a class="menu_item" href="tema3.html">Tema 3</a></li>
+                <li><a class="menu_item" href="tema4.html">Team 4</a></li>
+                <li><a class="menu_item" href="tema5.html">Tema 5</a></li>
+                <li><a class="menu_item" href="ommig.html">Om mig</a></li>
             </ul>
         </nav>
     </header>
@@ -30,6 +36,8 @@
                 </div>
         </section>
     </main>
+    <script src="js/burgermenu.js"></script>
+
     <footer></footer> 
 </body>
 </html>
