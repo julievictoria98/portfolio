@@ -43,21 +43,15 @@
     top: 3%;
 }
 
-.img_btn {
-    background-image: url("../img/orange_button.svg");
-    background-size: cover;
-    width: 20%;
-    height: 40%;
-    text-align: center;
-    margin-bottom: 60px;
+
+.browser:hover{
+     content: url(../img/browser_hover.svg);
 
 }
-.img_btn:hover {
-    cursor:pointer;
-    background-image: url("../img/hoover_button.svg");
-    text-align: center;
 
-}
+
+
+
 
 
 

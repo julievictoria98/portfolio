@@ -1,5 +1,6 @@
 body {
-   background-color: #dad7d3;
+   background-color: #FAF4F4;
+   background-image: url(../img/paper.svg);
 }
 
 main {
@@ -28,7 +29,7 @@ main {
 /* Global Menu */
 
 header{
-    background-color: #dad7d3;
+    background-color: transparent
 }
 
 
@@ -181,7 +182,6 @@ nav {
          url('exo-italic-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /* media - responsivt design */
@@ -192,7 +192,7 @@ nav {
         left: -200%;
         top: 70px;
         flex-direction: column;
-        background-color: #dad7d3;
+        background-color: #FAF4F4;
         border: 2px solid #5835B9;
         text-align: center;
         transition: 0.3s;
@@ -231,6 +231,24 @@ nav {
 }
 
 } 
+
+.asymmetrical_button {
+    border: 0;
+    width: 10vw;
+    height: auto; 
+    cursor: pointer;
+  }
+
+.asymmetrical_button:hover {
+    border: 0; 
+    content: url(../img/hoover_button.svg);
+
+  }
+
+
+
+
+
 
 
     
