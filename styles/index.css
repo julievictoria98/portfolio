@@ -13,34 +13,28 @@
     position: absolute;
     width: 20%;
     left: 2.4%;
-    top: 3%;
+    top: 4%;
 }
 
 #browser2{
     position: absolute;
     width: 20%;
     left: 27.1%;
-    top: 3%;
+    top: 4%;
 }
 
 #browser3{
     position: absolute;
     width: 20%;
     left: 52%;
-    top: 3%;
+    top: 5%;
 }
 
 #browser4{
     position: absolute;
     width: 20%;
     left: 77%;
-    top: 3%;
-}
-#browser5{
-    position: absolute;
-    width: 20%;
-    left: 80%;
-    top: 3%;
+    top: 4%;
 }
 
 
@@ -49,6 +43,51 @@
 
 }
 
+@media (max-width: 650px){
+    #grid1-1-1-1{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 25px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    
+#browser1{
+    position: absolute;
+    width: 20%;
+    left: 19%;
+    top: 11%;
+}
+
+#browser2{
+    position: absolute;
+    width: 20%;
+    left: 19%;
+    top: 68%;
+}
+
+#browser3{
+    position: absolute;
+    width: 20%;
+    left: 60%;
+    top: 11%;
+}
+
+#browser4{
+    position: absolute;
+    width: 20%;
+    left: 60%;
+    top: 68%;
+}
+
+.browser{
+    scale: 1.6;
+}
+p{
+    font-size: 3vw;
+}
+
+}
 
 
 
