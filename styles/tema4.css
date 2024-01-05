@@ -1,0 +1,24 @@
+.tema4_img{
+    width: 30vw;
+}
+
+.theme4_grid1-1{
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+    gap: 5vw;
+}
+
+.tema4_figure{
+    width: 12vw;
+}
+
+.grid1-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2vw;
+}
+
+
+.tema4_grid1-1-1{
+    width: 23.5vw;
+}

@@ -1,0 +1,26 @@
+.moodboard{
+    width: 25vw;
+}
+
+.styletiles{
+    width: 25vw;
+}
+
+.theme3_frontpage{
+    width: 25vw;
+
+}
+
+
+.grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+    gap: 2vw;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
