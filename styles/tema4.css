@@ -1,3 +1,4 @@
+
 .tema4_img{
     width: 30vw;
 }
@@ -5,7 +6,7 @@
 .theme4_grid1-1{
     display: grid ;
     grid-template-columns: 1fr 1fr;
-    gap: 5vw;
+    gap: 3vw;
 }
 
 .tema4_figure{
@@ -15,10 +16,42 @@
 .grid1-1-1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2vw;
+    gap: 3vw;
+    margin-top: 15px;
+}
+
+.grid1-1-1 img {
+     width: 18vw
+
 }
 
 
-.tema4_grid1-1-1{
-    width: 23.5vw;
+@media (max-width: 650px) {
+    .theme4_grid1-1{
+        grid-template-columns: 1fr;
+    }
+
+    .grid1-1-1{
+        grid-template-columns: 1fr;
+    }
+
+    .tema4_img{
+    width: 70vw;
 }
+.tema4_figure{
+    width: 30vw;
+}
+.grid1-1-1{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1vw;
+}
+
+.grid1-1-1 img {
+    width: 70vw;
+
+}
+
+}
+
+
