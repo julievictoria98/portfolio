@@ -7,6 +7,7 @@
     display: grid ;
     grid-template-columns: 1fr 1fr;
     gap: 3vw;
+    margin-top: 20px;
 }
 
 .tema4_figure{
