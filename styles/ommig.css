@@ -3,16 +3,39 @@
     grid-template-columns: 1fr 1fr;
 }
 
-#flex1-1 {
+.grid1 {
+    display: grid;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3%;
+    border: 0.3vw solid #5835B9 ;
+    border-radius: 20px 20px 20px 20px; 
+
+}
+
+#flexbox_2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-left: 2%;
-    padding-right: 2%;
-    border: 3px solid #408553 ;
-    border-radius: 30px 30px 30px 30px; 
-    margin-bottom: 80px;
-
+    flex-direction: row;
+    
 }
+
+#flexbox_3{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    flex-direction: row;    
+}
+
+#picture_me{
+    width: 25vw;
+}
+
+.undersider_grid2-1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3vw;
+    margin-top: 20px;
+    }
