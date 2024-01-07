@@ -312,3 +312,11 @@ nav {
 }
 }
 
+
+.theme4_grid1-1{
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+    gap: 3vw;
+    margin-top: 20px;
+}
+
