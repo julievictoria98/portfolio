@@ -22,5 +22,28 @@
 }
 
 
+@media (max-width: 650px){
+    .grid3{
+        grid-template-columns: 1fr;
+    }
+
+    .moodboard{
+    width: 65vw;
+}
+
+.styletiles{
+    width: 65vw;
+}
+
+.theme3_frontpage{
+    width: 65vw;
+
+}
+ .grid3 img {
+    justify-self: center;
+    }
+}
+
+
 
 

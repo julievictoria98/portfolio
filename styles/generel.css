@@ -1,6 +1,8 @@
 body {
    background-color: #FAF4F4;
    background-image: url(../img/paper.svg);
+   margin: 0;
+   padding: 0;
 }
 
 main {
@@ -99,6 +101,36 @@ p{
     line-height: 1.6em;
 }
 
+h1{
+    font-family: "permanent_markerregular";
+        font-weight: 100;
+}
+
+h3{
+    font-family: "exothin" ;
+    font-weight: 1000;
+}
+
+nav {
+    font-family: "exothin";
+    font-weight: 1000;
+}
+
+.asymmetrical_button {
+    border: 0;
+    width: 10vw;
+    height: auto; 
+    cursor: pointer;
+  }
+
+.asymmetrical_button:hover {
+    border: 0; 
+    content: url(../img/hoover_button.svg);
+
+  }
+
+
+
 /* Grids */
 .grid1-1 {
     display: grid;
@@ -136,46 +168,13 @@ p{
 }
 
 
-
-h1{
-    font-family: "permanent_markerregular";
-        font-weight: 100;
-}
-
-
-h3{
-    font-family: "exothin" ;
-    font-weight: 1000;
-}
-
-
-
-nav {
-    font-family: "exothin";
-    font-weight: 1000;
-}
-
-
-.asymmetrical_button {
-    border: 0;
-    width: 10vw;
-    height: auto; 
-    cursor: pointer;
-  }
-
-.asymmetrical_button:hover {
-    border: 0; 
-    content: url(../img/hoover_button.svg);
-
-  }
-
-  .grid1{
+.grid1{
     display: grid;
     grid-template-columns: 1fr;
   }
 
 
-  .grid1 h3 {
+.grid1 h3 {
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -185,9 +184,7 @@ nav {
 }
 .grid1 p {
     margin-bottom: 0;
-    text-align: left;
-
-   
+    text-align: left;   
 }
   
 
@@ -270,28 +267,34 @@ nav {
 
 
     }
-
     .grid1-1 > :first-child {
     border-bottom: 2px solid #5835B9;
     border-left: 2px solid #5835B9;
     padding: 25px;
 
-}
+    }
 
-.grid1-1 > :nth-child(2) {
+    .grid1-1 > :nth-child(2) {
     border-top: 2px solid #5835B9;
     border-right: 2px solid #5835B9;
     
-}
+    }
 
-.asymmetrical_button {
+    .asymmetrical_button {
     border: 0;
     width: 15vw;
     height: auto; 
-    cursor: pointer;
-
-
+    cursor: pointer;  
+}
+    .grid_undersider1-1{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+  .grid1 h3 {
+    border-bottom: 1.5px solid #5835B9; 
    
+}
+
 }
 
 @media (max-width: 900px){
@@ -310,7 +313,7 @@ nav {
     text-align: center;
 }
 }
-}
+
 
 
 .theme4_grid1-1{
@@ -320,3 +323,12 @@ nav {
     margin-top: 20px;
 }
 
+/* footer{
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding-top: 20px;
+    background-color: #5835B9;
+   
+} */

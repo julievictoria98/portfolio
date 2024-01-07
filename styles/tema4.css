@@ -8,6 +8,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 3vw;
     margin-top: 20px;
+    justify-items: center;
 }
 
 .tema4_figure{
@@ -19,6 +20,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3vw;
     margin-top: 15px;
+    justify-items: center;
 }
 
 .grid1-1-1 img {
@@ -35,24 +37,22 @@
     .grid1-1-1{
         grid-template-columns: 1fr;
     }
-
     .tema4_img{
     width: 70vw;
-}
-.tema4_figure{
+    }
+    .tema4_figure{
     width: 30vw;
-}
-.grid1-1-1{
+    }
+    .grid1-1-1{
     display: grid;
     grid-template-columns: 1fr;
     gap: 1vw;
-}
+    }
 
-.grid1-1-1 img {
+    .grid1-1-1 img {
     width: 70vw;
-
-}
-
+    }
+  
 }
 
 
