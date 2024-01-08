@@ -21,10 +21,7 @@ main {
     align-content: center;
 }
 
-#portfolio{
-   max-width: 55%;
-   height: auto;
-}
+
 
 
 /* Global Menu */
@@ -32,8 +29,6 @@ main {
 header{
     background-color: transparent
 }
-
-
 
 #nav_menu {
     display: flex;
@@ -43,22 +38,9 @@ header{
     gap: 4px;
     margin-right: 25px;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: 10px;
 }
 
-li a {
-    text-decoration: none;
-    color: #5835B9;
-}
-
-li a:hover{
-        color: #E76605;
-
-}
-
-ul {
-    list-style: none;
-}
 
 #hamburger {
     position: fixed;
@@ -73,62 +55,6 @@ ul {
     margin-top: 5px;
     background-color: #5835B9;
 }
-
-
-/* design af text*/
-h1{
-    color: #5835B9;
-    font-size: 3.4vw;
-
-}
-h2 {
-    color: #E76605;
-    font-size: 3vw;
-    font-family: "exothin" ;
-    font-weight: 1000;
-}
-
-h3{
-    color: #5835B9;
-    font-size: 2vw;
-}
-
-p{
-    font-size: 1.5vw;
-    color: #E76605;
-    font-family: "exothin" ;
-    font-weight: 1000;
-    line-height: 1.6em;
-}
-
-h1{
-    font-family: "permanent_markerregular";
-        font-weight: 100;
-}
-
-h3{
-    font-family: "exothin" ;
-    font-weight: 1000;
-}
-
-nav {
-    font-family: "exothin";
-    font-weight: 1000;
-}
-
-.asymmetrical_button {
-    border: 0;
-    width: 10vw;
-    height: auto; 
-    cursor: pointer;
-  }
-
-.asymmetrical_button:hover {
-    border: 0; 
-    content: url(../img/hoover_button.svg);
-
-  }
-
 
 
 /* Grids */
@@ -161,11 +87,6 @@ nav {
     border-radius: 0 30px 0 20px; 
 }
 
-.grid_undersider1-1{
-    display: grid ;
-    grid-template-columns: 1fr 1fr;
-    gap: 3vw;
-}
 
 
 .grid1{
@@ -173,58 +94,20 @@ nav {
     grid-template-columns: 1fr;
   }
 
+.grid_undersider1-1{
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+     margin-top: 20px;
+    gap: 3vw;
+}
 
-.grid1 h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    border-bottom: 3px solid #5835B9; 
-    margin-top: 25px;
+.footer_grid1-1-1-1-1{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
     text-align: left;
-}
-.grid1 p {
-    margin-bottom: 0;
-    text-align: left;   
-}
-  
-
-
-/* Fonts */
-
-@font-face {
-    font-family: 'exothin';
-    src: url('../fonts/exo-variablefont_wght-webfont.woff') format('woff2'),
-         url('exo-variablefont_wght-webfont.woff') format('woff');
-    font-weight: 0 1000;
-        font-style:normal;
-
-    }
-
-    @font-face {
-    font-family: 'courier_primeregular';
-    src: url('../fonts/courierprime-regular-webfont.woff2') format('woff2'),
-         url('courierprime-regular-webfont.woff') format('woff');
-    font-weight: 0 1000;
-    font-style: normal;
-
+    padding-top: 20px;
 }
 
-@font-face {
-    font-family: 'permanent_markerregular';
-    src: url('../fonts/permanentmarker-regular-webfont.woff2') format('woff2'),
-         url('permanentmarker-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'exothin_italic';
-    src: url('exo-italic-variablefont_wght-webfont.woff2') format('woff2'),
-         url('exo-italic-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 /* media - responsivt design */
 
@@ -264,28 +147,24 @@ nav {
     }
     h3{
         font-size: 3.5vw;
-
-
     }
     .grid1-1 > :first-child {
     border-bottom: 2px solid #5835B9;
     border-left: 2px solid #5835B9;
     padding: 25px;
-
     }
 
     .grid1-1 > :nth-child(2) {
     border-top: 2px solid #5835B9;
     border-right: 2px solid #5835B9;
-    
     }
 
     .asymmetrical_button {
     border: 0;
     width: 15vw;
     height: auto; 
-    cursor: pointer;  
-}
+    cursor: pointer;    
+    }
     .grid_undersider1-1{
         grid-template-columns: 1fr;
         justify-items: center;
@@ -293,8 +172,10 @@ nav {
   .grid1 h3 {
     border-bottom: 1.5px solid #5835B9; 
    
-}
-
+    }
+    .icon{
+        width: 5.5vw;
+    }
 }
 
 @media (max-width: 900px){
@@ -313,22 +194,3 @@ nav {
     text-align: center;
 }
 }
-
-
-
-.theme4_grid1-1{
-    display: grid ;
-    grid-template-columns: 1fr 1fr;
-    gap: 3vw;
-    margin-top: 20px;
-}
-
-/* footer{
-    margin: 0;
-    padding: 0;
-    margin-top: 50px;
-    margin-bottom: 0;
-    padding-top: 20px;
-    background-color: #5835B9;
-   
-} */

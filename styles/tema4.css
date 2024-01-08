@@ -3,13 +3,6 @@
     width: 30vw;
 }
 
-.theme4_grid1-1{
-    display: grid ;
-    grid-template-columns: 1fr 1fr;
-    gap: 3vw;
-    margin-top: 20px;
-    justify-items: center;
-}
 
 .tema4_figure{
     width: 12vw;
@@ -30,7 +23,7 @@
 
 
 @media (max-width: 650px) {
-    .theme4_grid1-1{
+    .undersider_grid1-1{
         grid-template-columns: 1fr;
     }
 

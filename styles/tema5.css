@@ -15,13 +15,6 @@
     justify-items: center ;
 }
 
-.undersider_grid2-1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3vw;
-    margin-top: 20px;
-    justify-items: center;
-}
 .theme5_prototype{
     width: 20vw;
 }
@@ -36,17 +29,27 @@
     text-align: center;
 }
 
+
+.theme4_grid1-1 a{
+    justify-self: start; /* Align link to the left within the grid cell */
+    align-self: start;
+}
+
+
+
+
+
 @media (max-width: 650px){
     .grid1-1-1{
     grid-template-columns: 1fr;
    
 }
 
-.undersider_grid2-1{
+.grid_undersider1-1{
     grid-template-columns: 1fr;
   
 }
-.undersider_grid2-1 img {
+.grid_undersider1-1 img {
     width: 80vw;
 }
 #poster{

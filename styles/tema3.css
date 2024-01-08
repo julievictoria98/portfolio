@@ -15,12 +15,17 @@
 .grid3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 10px;
+    margin-top: 20px;
     gap: 2vw;
     margin-bottom: 20px;
     
 }
 
+.link_main{
+    text-align: left;
+    color:#5835B9;;
+
+}
 
 @media (max-width: 650px){
     .grid3{

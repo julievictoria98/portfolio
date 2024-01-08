@@ -1,0 +1,181 @@
+body {
+   background-color: #FAF4F4;
+   background-image: url(../img/paper.svg);
+   margin: 0;
+   padding: 0;
+}
+
+#subpages_icon{
+   max-width: 55%;
+   height: auto;
+}
+
+#site_name{
+    color: #E76605;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #5835B9;
+    font-family: "exothin";
+    font-weight: 1000;
+
+}
+
+a:hover{
+    color: #E76605;
+
+}
+
+ul {
+    list-style: none;
+}
+
+h1{
+    color: #5835B9;
+    font-size: 3.4vw;
+
+}
+h2 {
+    color: #E76605;
+    font-size: 3vw;
+    font-family: "exothin" ;
+    font-weight: 1000;
+}
+
+h3{
+    color: #5835B9;
+    font-size: 2vw;
+}
+
+p{
+    font-size: 1.5vw;
+    color: #E76605;
+    font-family: "exothin" ;
+    font-weight: 1000;
+    line-height: 1.6em;
+}
+
+h1{
+    font-family: "permanent_markerregular";
+        font-weight: 100;
+}
+
+h3{
+    font-family: "exothin" ;
+    font-weight: 1000;
+}
+
+nav {
+    font-weight: 1000;
+    font-family: "exothin" ;
+
+}
+
+.asymmetrical_button {
+    border: 0;
+    width: 10vw;
+    height: auto; 
+    cursor: pointer;
+  }
+
+.asymmetrical_button:hover {
+    border: 0; 
+    content: url(../img/hoover_button.svg);
+
+  }
+
+  #message_text{
+    color: #E76605;
+  }
+
+.grid1 h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 3px solid #5835B9; 
+    margin-top: 25px;
+    text-align: left;
+}
+.grid1 p {
+    margin-bottom: 0;
+    text-align: left;   
+}
+
+footer {
+  background-color: #5835B9;
+  margin-top: 50px;
+}
+
+footer p{
+    color: white;
+    font-size: smaller;
+}
+
+#footer_img{
+    width: 50px;
+}
+
+.icon{
+    margin: 10px;
+    width: 3.5vw;
+    justify-self: center;
+}
+
+#instagram_icon:hover {
+    border: 0; 
+    content: url(../img/instagram_hover.svg);
+    cursor: pointer;
+  }
+
+#linkedin_icon:hover {
+    border: 0; 
+    content: url(../img/linkedin_hover.svg);
+    cursor: pointer;
+}
+
+
+#twitter_icon:hover {
+    border: 0; 
+    content: url(../img/twitter_hover.svg);
+    cursor: pointer;
+}
+  
+/* Fonts */
+
+@font-face {
+    font-family: 'exothin';
+    src: url('../fonts/exo-variablefont_wght-webfont.woff') format('woff2'),
+         url('exo-variablefont_wght-webfont.woff') format('woff');
+    font-weight: 0 1000;
+        font-style:normal;
+
+    }
+
+    @font-face {
+    font-family: 'courier_primeregular';
+    src: url('../fonts/courierprime-regular-webfont.woff2') format('woff2'),
+         url('courierprime-regular-webfont.woff') format('woff');
+    font-weight: 0 1000;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'permanent_markerregular';
+    src: url('../fonts/permanentmarker-regular-webfont.woff2') format('woff2'),
+         url('permanentmarker-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'exothin_italic';
+    src: url('exo-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('exo-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
