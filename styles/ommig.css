@@ -14,19 +14,12 @@
 
 }
 
-#flexbox_2{
+.flexbox_2{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
     
-}
-
-#flexbox_3{
-    display: flex;
-   justify-content: space-between;
-    align-items: center;
-    flex-direction: row;    
 }
 
 #picture_me{
@@ -38,4 +31,17 @@
     grid-template-columns: 2fr 1fr;
     gap: 3vw;
     margin-top: 20px;
+}
+
+@media (max-width: 650px){
+    .undersider_grid2-1{
+        grid-template-columns: 1fr;
     }
+    #picture_me{
+    width: 40vw;
+    justify-self: center;
+}
+    
+
+    
+}

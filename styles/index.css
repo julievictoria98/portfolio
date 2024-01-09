@@ -39,7 +39,7 @@
 
 
 .browser:hover{
-     content: url(../img/browser_hover.svg);
+     content: url(../img/index/browser_hover.svg);
 
 }
 
@@ -52,26 +52,26 @@
     }
 
     
-#browser1{
+    #browser1{
     position: absolute;
     width: 20%;
     left: 19%;
     top: 11%;
-}
+    }
 
-#browser2{
+    #browser2{
     position: absolute;
     width: 20%;
     left: 19%;
     top: 66%;
-}
+    }
 
-#browser3{
+    #browser3{
     position: absolute;
     width: 20%;
     left: 60%;
     top: 11%;
-}
+    }
 
 #browser4{
     position: absolute;
@@ -82,9 +82,6 @@
 
 .browser{
     scale: 1.6;
-}
-p{
-    font-size: 3vw;
 }
 
 }

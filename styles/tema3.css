@@ -11,19 +11,28 @@
 
 }
 
-
 .grid3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 20px;
     gap: 2vw;
     margin-bottom: 20px;
-    
 }
 
-.link_main{
-    text-align: left;
-    color:#5835B9;;
+.link_border{
+    text-align: center;
+    color:#5835B9;
+    border: 2px solid #5835B9;
+    width: 20vw;
+    padding: 5px;
+
+}
+
+.link_border:hover{
+    border: 2px solid #7AC6C6;
+    color: #7AC6C6;
+    width: 20vw;
+    padding: 5px;
 
 }
 
@@ -34,6 +43,19 @@
 
     .moodboard{
     width: 65vw;
+}
+a{
+    justify-self: center;
+}
+
+.link_border{
+    width: 50vw;
+
+}
+
+.link_border:hover{
+    width: 50vw;
+
 }
 
 .styletiles{

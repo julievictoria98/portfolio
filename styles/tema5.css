@@ -29,14 +29,27 @@
     text-align: center;
 }
 
-
 .theme4_grid1-1 a{
     justify-self: start; /* Align link to the left within the grid cell */
     align-self: start;
 }
 
+.link_border{
+    text-align: center;
+    color:#5835B9;
+    border: 2px solid #5835B9;
+    width: 35vw;
+    padding: 5px;
 
+}
 
+.link_border:hover{
+    border: 2px solid #7AC6C6;
+    color:#7AC6C6 ;
+    width: 35vw;
+    padding: 5px;
+
+}
 
 
 @media (max-width: 650px){
@@ -44,13 +57,22 @@
     grid-template-columns: 1fr;
    
 }
-
 .grid_undersider1-1{
     grid-template-columns: 1fr;
-  
+ 
 }
 .grid_undersider1-1 img {
     width: 80vw;
+}
+
+.link_border{
+    width: 50vw;
+
+}
+
+.link_border:hover{
+    width: 50vw;
+
 }
 #poster{
     height: 120vw;

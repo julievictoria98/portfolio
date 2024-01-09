@@ -148,7 +148,7 @@ footer p{
     font-family: 'exothin';
     src: url('../fonts/exo-variablefont_wght-webfont.woff') format('woff2'),
          url('exo-variablefont_wght-webfont.woff') format('woff');
-    font-weight: 0 1000;
+    font-weight:normal;
         font-style:normal;
 
     }
@@ -157,7 +157,7 @@ footer p{
     font-family: 'courier_primeregular';
     src: url('../fonts/courierprime-regular-webfont.woff2') format('woff2'),
          url('courierprime-regular-webfont.woff') format('woff');
-    font-weight: 0 1000;
+    font-weight:normal ;
     font-style: normal;
 
 }
