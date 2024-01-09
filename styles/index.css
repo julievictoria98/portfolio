@@ -65,15 +65,17 @@
     #browser2{
         position: absolute;
         width: 20%;
-        left: 19%;
-        top: 66%;
+        left: 60%;
+        top: 11%;
     }
+
 
     #browser3{
         position: absolute;
         width: 20%;
-        left: 60%;
-        top: 11%;
+        left: 19%;
+        top: 66%;
+        
     }
 
     #browser4{

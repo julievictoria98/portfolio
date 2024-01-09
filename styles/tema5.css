@@ -30,14 +30,14 @@
     text-align: center;
     color:#5835B9;
     border: 2px solid #5835B9;
-    width: 35vw;
+    width: 30vw;
     padding: 5px;
 }
 
 .link_border:hover{
     border: 2px solid #7AC6C6;
     color:#7AC6C6 ;
-    width: 35vw;
+    width: 30vw;
     padding: 5px;
 }
 
@@ -45,14 +45,14 @@
     position: relative;
 }
 .video_container iframe{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
 
-}
+} 
 
 @media (max-width: 650px){
     .subpages_grid1-1 img{
-        width: 80vw;
+        width: 70vw;
     }
 
     .link_border{
@@ -65,14 +65,14 @@
     }
 
     #poster{
-        height: 120vw;
+        height: 100vw;
     }
 
     #theme5_moodboard{
-        width: 80vw;
+        width: 70vw;
     }
 
     .theme5_prototype{
-        width: 55vw;
+        width: 40vw;
     }
 }

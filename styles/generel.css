@@ -63,6 +63,7 @@ header{
     margin-top: 55px;
     margin-bottom: 60px;
     text-align: center;
+    max-width: 919px;
 }
 
 .grid1-1 > :first-child{
@@ -115,6 +116,23 @@ header{
 
 
 /* media - responsivt design */
+
+@media (max-width: 900px){
+    main{
+        display: grid;
+        grid-template-columns: 2fr 10fr 2fr;
+    
+    }
+
+    .grid1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        margin-top: 55px;
+        margin-bottom: 82px;
+        text-align: center;
+    }
+}
 
 @media (max-width: 650px){
     #nav_menu{
@@ -179,8 +197,6 @@ header{
         grid-template-columns: 1fr;
         gap: 1vw;
     } 
-    
-
 
     .asymmetrical_button{
         border: 0;
@@ -203,18 +219,27 @@ header{
     }
 }
 
-@media (max-width: 900px){
-    main{
-        display: grid;
-        grid-template-columns: 2fr 10fr 2fr;
+
+@media (max-width: 450px){
+    p{
+        font-size: 2.7vw;
+    }
+    h1{
+        font-size: 5vw;
     }
 
-    .grid1-1{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 50px;
-        margin-top: 55px;
-        margin-bottom: 82px;
-        text-align: center;
+    h2{
+        font-size: 4vw;
+    }
+
+    h3{
+        font-size: 3.5vw;
+    }
+
+    h4{
+        font-size: 2vw;
+    }
+    #subpages_icon{
+        max-width: 70%;
     }
 }
