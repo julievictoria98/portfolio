@@ -35,9 +35,12 @@ header{
     margin-right: 25px;
     margin-bottom: 0;
     margin-top: 10px;
+    z-index: 2;
 }
 
 #hamburger{
+    top: 20px;
+    left: 20px;
     position: fixed;
     display: none;
     cursor: pointer;
@@ -112,6 +115,7 @@ header{
 
 
 /* media - responsivt design */
+
 @media (max-width: 650px){
     #nav_menu{
         position: fixed;
@@ -128,7 +132,7 @@ header{
     #hamburger{
         display: block;
         cursor: pointer;
-        z-index: 2;
+        z-index: 3;
     }
 
     .menu_item{
@@ -153,7 +157,7 @@ header{
     }
 
     p{
-    font-size: 3vw;
+    font-size: 2.5vw;
     }
     h4{
         font-size: 3vw;
@@ -202,7 +206,7 @@ header{
 @media (max-width: 900px){
     main{
         display: grid;
-        grid-template-columns: 1fr 10fr 1fr;
+        grid-template-columns: 2fr 10fr 2fr;
     }
 
     .grid1-1{

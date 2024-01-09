@@ -12,6 +12,7 @@
     width: 20%;
     left: 2.4%;
     top: 4%;
+    z-index: 1;
 }
 
 #browser2{
@@ -19,6 +20,8 @@
     width: 20%;
     left: 27.1%;
     top: 4%;
+    z-index: 1;
+
 }
 
 #browser3{
@@ -26,6 +29,8 @@
     width: 20%;
     left: 52%;
     top: 5%;
+    z-index: 1;
+
 }
 
 #browser4{
@@ -33,6 +38,8 @@
     width: 20%;
     left: 77%;
     top: 4%;
+    z-index: 1;
+
 }
 
 .browser:hover{

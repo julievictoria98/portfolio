@@ -41,6 +41,15 @@
     padding: 5px;
 }
 
+.video_container{
+    position: relative;
+}
+.video_container iframe{
+    width: 100%;
+    height: 100%;
+
+}
+
 @media (max-width: 650px){
     .subpages_grid1-1 img{
         width: 80vw;
