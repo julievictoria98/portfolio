@@ -21,7 +21,6 @@
     left: 27.1%;
     top: 4%;
     z-index: 1;
-
 }
 
 #browser3{
@@ -30,7 +29,6 @@
     left: 52%;
     top: 5%;
     z-index: 1;
-
 }
 
 #browser4{
@@ -39,12 +37,10 @@
     left: 77%;
     top: 4%;
     z-index: 1;
-
 }
 
 .browser:hover{
     content: url(../img/index/browser_hover.svg);
-
 }
 
 @media (max-width: 650px){
@@ -108,20 +104,19 @@
         position: absolute;
         width: 20%;
         left: 19%;
-        top: 67%;  
+        top: 69%;  
     }
 
     #browser4{
         position: absolute;
         width: 20%;
         left: 60%;
-        top: 67%;
+        top: 69%;
     }
 
     .browser{
         scale: 1.9;
     }
-
 }
 
 

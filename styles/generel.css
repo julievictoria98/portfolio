@@ -162,8 +162,8 @@ header{
     }
 
     h1{
-    color: #5835B9;
-    font-size: 5vw;
+        color: #5835B9;
+        font-size: 5vw;
     }
 
     h2{
@@ -175,8 +175,9 @@ header{
     }
 
     p{
-    font-size: 2.5vw;
+        font-size: 2.5vw;
     }
+
     h4{
         font-size: 3vw;
     }
@@ -192,7 +193,7 @@ header{
         border-right: 2px solid #5835B9;
     }
 
-     .grid1-1-1{
+    .grid1-1-1{
         display: grid;
         grid-template-columns: 1fr;
         gap: 1vw;
@@ -213,35 +214,10 @@ header{
     }
 
     .grid1 h3{
-    border-bottom: 1.5px solid #5835B9; 
+        border-bottom: 1.5px solid #5835B9; 
     }
 
     .icon{
         width: 5.5vw;
-    }
-}
-
-
-@media (max-width: 550px){
-    p{
-        font-size: 3vw;
-    }
-    h1{
-        font-size: 5vw;
-    }
-
-    h2{
-        font-size: 4vw;
-    }
-
-    h3{
-        font-size: 3.5vw;
-    }
-
-    h4{
-        font-size: 2vw;
-    }
-    #subpages_icon{
-        max-width: 70%;
     }
 }
