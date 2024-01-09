@@ -90,6 +90,40 @@
     }
 }
 
+@media (max-width: 550px){
+      #browser1{
+        position: absolute;
+        width: 20%;
+        left: 19%;
+        top: 12%;
+    }
+
+    #browser2{
+        position: absolute;
+        width: 20%;
+        left: 60%;
+        top: 12%;
+    }
+    #browser3{
+        position: absolute;
+        width: 20%;
+        left: 19%;
+        top: 67%;  
+    }
+
+    #browser4{
+        position: absolute;
+        width: 20%;
+        left: 60%;
+        top: 67%;
+    }
+
+    .browser{
+        scale: 1.9;
+    }
+
+}
+
 
 
 
