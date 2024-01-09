@@ -25,7 +25,6 @@
     border: 2px solid #5835B9;
     width: 20vw;
     padding: 5px;
-
 }
 
 .link_border:hover{
@@ -33,7 +32,6 @@
     color: #7AC6C6;
     width: 20vw;
     padding: 5px;
-
 }
 
 @media (max-width: 650px){
@@ -42,32 +40,31 @@
     }
 
     .moodboard{
-    width: 65vw;
-}
-a{
-    justify-self: center;
-}
+        width: 65vw;
+    }
 
-.link_border{
-    width: 50vw;
+    a{
+        justify-self: center;
+    }
 
-}
+    .link_border{
+        width: 50vw;
+    }
 
-.link_border:hover{
-    width: 50vw;
+    .link_border:hover{
+        width: 50vw;
+    }
 
-}
+    .styletiles{
+        width: 65vw;
+    }
 
-.styletiles{
-    width: 65vw;
-}
-
-.theme3_frontpage{
-    width: 65vw;
-
-}
- .grid3 img {
-    justify-self: center;
+    .theme3_frontpage{
+        width: 65vw;
+    }
+    
+    .grid3 img{
+        justify-self: center;
     }
 }
 

@@ -1,11 +1,11 @@
-body {
+body{
    background-color: #FAF4F4;
    background-image: url(../img/paper.svg);
    margin: 0;
    padding: 0;
 }
 
-main {
+main{
   display: grid;
   grid-template-columns: 1.5fr 8fr 1.5fr;
   padding: 0;
@@ -21,16 +21,12 @@ main {
     align-content: center;
 }
 
-
-
-
 /* Global Menu */
-
 header{
     background-color: transparent
 }
 
-#nav_menu {
+#nav_menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,8 +37,7 @@ header{
     margin-top: 10px;
 }
 
-
-#hamburger {
+#hamburger{
     position: fixed;
     display: none;
     cursor: pointer;
@@ -58,7 +53,7 @@ header{
 
 
 /* Grids */
-.grid1-1 {
+.grid1-1{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
@@ -67,7 +62,7 @@ header{
     text-align: center;
 }
 
-.grid1-1 > :first-child {
+.grid1-1 > :first-child{
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 25px;
@@ -78,7 +73,7 @@ header{
     border-radius: 0 0 0 30px; 
 }
 
-.grid1-1 > :nth-child(2) {
+.grid1-1 > :nth-child(2){
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 30px;
@@ -87,12 +82,10 @@ header{
     border-radius: 0 30px 0 20px; 
 }
 
-
-
 .grid1{
     display: grid;
     grid-template-columns: 1fr;
-  }
+}
 
 .grid_undersider1-1{
     display: grid ;
@@ -111,31 +104,31 @@ header{
 
 
 /* media - responsivt design */
-
-@media (max-width: 650px) {
-    #nav_menu {
+@media (max-width: 650px){
+    #nav_menu{
         position: fixed;
-        left: -200%;
-        top: 70px;
         flex-direction: column;
         background-color: #FAF4F4;
         border: 2px solid #5835B9;
         text-align: center;
-        transition: 0.3s;
         width: 100%;
         padding: 0;
+        margin:0;
+        display:none;
     }
-     #hamburger {
+
+    #hamburger{
         display: block;
         cursor: pointer;
         z-index: 2;
     }
-    .menu_item {
+
+    .menu_item{
         margin: 15px 0;
     }
-    #nav_menu.active {
-        left: 0;
-        top: 0;
+
+    #nav_menu.active{
+        display:block;
     }
 
     h1{
@@ -146,56 +139,59 @@ header{
     h2{
         font-size: 4.2vw;
     }
+
     h3{
         font-size: 3.5vw;
     }
-     p{
+
+    p{
     font-size: 3vw;
-}
-    .grid1-1 > :first-child {
+    }
+
+    .grid1-1 > :first-child{
     border-bottom: 2px solid #5835B9;
     border-left: 2px solid #5835B9;
     padding: 25px;
     }
 
-    .grid1-1 > :nth-child(2) {
+    .grid1-1 > :nth-child(2){
     border-top: 2px solid #5835B9;
     border-right: 2px solid #5835B9;
     }
 
-    .asymmetrical_button {
+    .asymmetrical_button{
     border: 0;
     width: 15vw;
     height: auto; 
     cursor: pointer;    
     }
+
     .grid_undersider1-1{
         grid-template-columns: 1fr;
         justify-items: center;
     }
-  .grid1 h3 {
+
+    .grid1 h3{
     border-bottom: 1.5px solid #5835B9; 
-   
     }
+
     .icon{
         width: 5.5vw;
     }
-   
 }
 
 @media (max-width: 900px){
-    main {
-  display: grid;
-  grid-template-columns: 1fr 10fr 1fr;
-    
-}
+    main{
+        display: grid;
+        grid-template-columns: 1fr 10fr 1fr;
+    }
 
-.grid1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    margin-top: 55px;
-    margin-bottom: 82px;
-    text-align: center;
-}
+    .grid1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        margin-top: 55px;
+        margin-bottom: 82px;
+        text-align: center;
+    }
 }

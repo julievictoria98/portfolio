@@ -2,12 +2,10 @@
 
 window.addEventListener("load", setEventListeners)
 
-function setEventListeners() {
+function setEventListeners(){
     document.querySelector("#hamburger").addEventListener("click", dropMenu)
 }
 
-function dropMenu() {
-    document.querySelector("#hamburger").classList.toggle("active");
+function dropMenu(){
     document.querySelector("#nav_menu").classList.toggle("active");
-
 }

@@ -1,6 +1,4 @@
-
-
-#grid1-1-1-1{
+.grid1-1-1-1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     position: relative;
@@ -37,53 +35,50 @@
     top: 4%;
 }
 
-
 .browser:hover{
-     content: url(../img/index/browser_hover.svg);
+    content: url(../img/index/browser_hover.svg);
 
 }
 
 @media (max-width: 650px){
-    #grid1-1-1-1{
+    .grid1-1-1-1{
         grid-template-columns: 1fr 1fr;
         row-gap: 25px;
         padding-left: 35px;
         padding-right: 35px;
     }
-
     
     #browser1{
-    position: absolute;
-    width: 20%;
-    left: 19%;
-    top: 11%;
+        position: absolute;
+        width: 20%;
+        left: 19%;
+        top: 11%;
     }
 
     #browser2{
-    position: absolute;
-    width: 20%;
-    left: 19%;
-    top: 66%;
+        position: absolute;
+        width: 20%;
+        left: 19%;
+        top: 66%;
     }
 
     #browser3{
-    position: absolute;
-    width: 20%;
-    left: 60%;
-    top: 11%;
+        position: absolute;
+        width: 20%;
+        left: 60%;
+        top: 11%;
     }
 
-#browser4{
-    position: absolute;
-    width: 20%;
-    left: 60%;
-    top: 66%;
-}
+    #browser4{
+        position: absolute;
+        width: 20%;
+        left: 60%;
+        top: 66%;
+    }
 
-.browser{
-    scale: 1.6;
-}
-
+    .browser{
+        scale: 1.6;
+    }
 }
 
 
