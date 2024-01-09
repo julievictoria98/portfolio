@@ -24,7 +24,7 @@
     width: 25vw;
 }
 
-.undersider_grid2-1{
+.subpages_grid2-1{
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 3vw;
@@ -32,7 +32,7 @@
 }
 
 @media (max-width: 650px){
-    .undersider_grid2-1{
+    .subpages_grid2-1{
         grid-template-columns: 1fr;
     }
 
